@@ -16,7 +16,7 @@
     background-size: 100%;
 }
 .banner-details{
-    font-weight:65 ;
+    font-weight: 65;
     font-size: 16px;
     margin: 100px 150px;
 }
@@ -30,6 +30,7 @@
     display: flex;
     margin-bottom: 30px;
     max-width: 494px;
+    color: #444343;
 }
 .btn-primary{
     color: #FFFFFF;
@@ -45,11 +46,16 @@
 /* section */
 .right-banner{
     display: flex;
-    
     align-items: center;
     padding: 10px;
     width: 100%;
     gap: 100px;
+    margin: 100px 150px;
+    
+
+
+
+    
 }
 .banner-dec{
 display: flex;
@@ -60,6 +66,95 @@ gap: 30px;
     margin-bottom: 24px;
     border: 0;
 }
+
+.text-title{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+}
+.text-des{
+    max-width: 400px;
+
+}
+
+
+/* section */
+.text2-title{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+}
+.text-serial{
+    display: flex;
+    gap: 90px;
+    justify-content: center;
+    
+
+    
+   
+
+}
+
+.title1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 100px;
+    padding: 100px 50px;
+}
+
+
+
+
+
+
+/* last section */
+
+
+.banner3{
+    background-image: url(images/watch.png),
+    linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
+    background-blend-mode: overlay;
+    
+  
+    display: flex;
+    justify-content: start;
+    text-align: start;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    padding: 39px 20px;
+    color: white;
+    flex-direction: column;
+    margin: 120px 200px;
+    
+
+}
+.row{
+    font-size: 40px;
+    font-weight: 700;
+    max-width: 460px;
+}
+.btn-prai{
+    color: #F15B22;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    padding: 18px 35px;
+    height: 64px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    max-width: 200px;
+    
+}
+
+
+
+
 
 
 
