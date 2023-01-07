@@ -8,14 +8,17 @@
     height: 100vh;
     background-image: url(images/banner/banner1.png);
     display: flex;
-    justify-content: center;
+    justify-content: end;
     text-align: right;
     align-items: center;
     background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
 }
 .banner-details{
     font-weight:65 ;
     font-size: 16px;
+    margin: 100px 150px;
 }
 .title-banner{
     font-size: 65px;
@@ -26,6 +29,7 @@
     place-items: right;
     display: flex;
     margin-bottom: 30px;
+    max-width: 494px;
 }
 .btn-primary{
     color: #FFFFFF;
@@ -41,9 +45,16 @@
 /* section */
 .right-banner{
     display: flex;
+    
     align-items: center;
     padding: 10px;
     width: 100%;
+    gap: 100px;
+}
+.banner-dec{
+display: flex;
+flex-direction: column;
+gap: 30px;
 }
 .footer input,textarea{
     margin-bottom: 24px;
